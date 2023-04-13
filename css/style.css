@@ -347,6 +347,11 @@ img {
 .footer > .container {
   display: flex;
 }
+.footer-logo-block,
+.footer-media-block {
+  padding: 0;
+  margin: 0;
+}
 .logo-link {
   display: inline-block;
   margin-bottom: 16px;
@@ -377,20 +382,28 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--background-color-one);
-  margin: 0 0 0 120px;
-  width: 208px;
-  height: 80px;
+  margin: 0 0 24px 120px;
 }
-.footer-media::after {
-  display: block;
-  content: "";
-  height: 600px;
-  background-image: url("../images/footer/Ellipse1.png"),
-    url("../images/footer/Ellipse2.png"), url("../images/footer/Ellipse3.png"),
-    url("../images/footer/Ellipse4.png");
-  background-repeat: no-repeat;
-  background-size: 40px, 40px, 40px, 40px;
-  background-position: 0 16px, 56px 16px, 112px 16px, 168px 16px;
+.icon-footer-list {
+  display: flex;
+  gap: 16px;
+  margin-left: 120px;
+  align-items: center;
+  align-self: center;
+}
+.icon-footer-item {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--logo-color);
+  padding: 8px;
+}
+.icon-link {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
 
 /* Page Portfolio */

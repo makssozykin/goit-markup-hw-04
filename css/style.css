@@ -263,6 +263,8 @@ img {
   height: 100%;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  border: none;
   border-radius: 50%;
   background-color: var(--logo-color);
 }
@@ -359,12 +361,16 @@ img {
   display: flex;
   gap: 16px;
 }
+.icon-footer-item {
+  width: 40px;
+  height: 40px;
+}
 .icon-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   cursor: pointer;
   border: none;
   border-radius: 50%;

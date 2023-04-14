@@ -253,10 +253,14 @@ img {
   justify-content: center;
   margin: 0 auto;
 }
-.member-icon-link {
-  display: flex;
+.icon-member-item {
   width: 40px;
   height: 40px;
+}
+.member-icon-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
